@@ -36,7 +36,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:50px 0;}
 
-#header #logo *{margin:0; padding:0; line-height:1;}
+#header #logo *{margin: 0px 11px; padding:0; line-height:1;}
 #header #logo h1{margin-top:8px; font-size:24px;}
 #header #logo p{margin-top:5px; font-size:1rem;}
 
@@ -352,11 +352,11 @@ table a, #comments a{background-color:inherit;}
 @media screen and (min-width:978px){
 	.hoc{max-width:978px;}
 
-	/* .iframe{
-
-		width:22em;
+	.iframe{
+		
+		width:20em;
 		height:16em
-	} */
+	}
 }
 
 
@@ -379,7 +379,17 @@ table a, #comments a{background-color:inherit;}
 	#comments input[type="reset"]{margin-top:10px;}
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
 
-	#footer{}
+	#footer{
+		 padding:80px 0;
+	
+	
+
+	}
+	.iframe{
+		
+		width:20em;
+		height:16em
+	}
 
 	#copyright{}
 	#copyright p:first-of-type{margin-bottom:10px;}
@@ -401,11 +411,7 @@ table a, #comments a{background-color:inherit;}
 	#pageintro{padding:150px 0 100px;}
 	#pageintro li article{max-width:none; width:100%;}
 	
-	.iframe{
-		
-		width:20em;
-		height:16em
-	}
+	
 	#pageintro li .heading{margin-bottom:20px; font-size:2rem;}
 
 }
@@ -433,4 +439,5 @@ table a, #comments a{background-color:inherit;}
 
 .kontakty{
 	margin-right: 16em;
+	/* width: 100%; */
 }
