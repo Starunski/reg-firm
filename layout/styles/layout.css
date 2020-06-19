@@ -38,7 +38,7 @@ File: Layout CSS
 
 #header #logo *{margin:0; padding:0; line-height:1;}
 #header #logo h1{margin-top:8px; font-size:24px;}
-#header #logo p{margin-top:-2px; font-size:.9rem; text-transform:lowercase;}
+#header #logo p{margin-top:5px; font-size:1rem;}
 
 #header #quickinfo{font-size:.8rem; text-transform:uppercase;}
 #header #quickinfo li{margin-right:50px;}
@@ -351,6 +351,12 @@ table a, #comments a{background-color:inherit;}
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px){
 	.hoc{max-width:978px;}
+
+	/* .iframe{
+
+		width:22em;
+		height:16em
+	} */
 }
 
 
@@ -394,6 +400,14 @@ table a, #comments a{background-color:inherit;}
 
 	#pageintro{padding:150px 0 100px;}
 	#pageintro li article{max-width:none; width:100%;}
+	
+	.iframe{
+		
+		width:20em;
+		height:16em
+	}
+	#pageintro li .heading{margin-bottom:20px; font-size:2rem;}
+
 }
 
 
@@ -415,4 +429,8 @@ table a, #comments a{background-color:inherit;}
 	.font-x3{font-size:1.6rem;}
 
 	#header #quickinfo li{display:block; margin-right:0;}
+}
+
+.kontakty{
+	margin-right: 16em;
 }
